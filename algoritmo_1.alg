@@ -1,0 +1,20 @@
+algoritmo "MENOR OU MAIOR QUE 10"
+// Autor : Nicolas Auguto da Silva
+// Data : 02/06/2023
+
+var
+numero: real
+inicio
+escreval ("digite um numero: ")
+leia (numero)
+se numero >= 10 entao
+escreval ("este numero é maior que 10")
+senao
+escreval ("este numero não é maior que 10")
+fimse
+
+
+
+escreval ("acabou")
+
+fimalgoritmo
