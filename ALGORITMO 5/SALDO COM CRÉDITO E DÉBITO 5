@@ -1,4 +1,4 @@
-algoritmo "SALDO COM CRÉDITO E DÉBITO"
+algoritmo "SALDO COM CRÃ‰DITO E DÃ‰BITO"
 // Autor : Nicolas Augusto da Silva
 // Data : 14/06/2023
 
@@ -8,11 +8,11 @@ saldo, mov1, mov2, mov3: real
 inicio
 escreval ("qual o valor do seu saldo: ")
 leia (saldo)
-escreval ("qunto foi o valor de sua 1° movimetação de débito: ")
+escreval ("qunto foi o valor de sua 1Â° movimetaÃ§Ã£o de dÃ©bito: ")
 leia (mov1)
-escreval ("quanto foi o valor da sua 2° movimentação de débito: ")
+escreval ("quanto foi o valor da sua 2Â° movimentaÃ§Ã£o de dÃ©bito: ")
 leia (mov2)
-escreval ("quanto foi o valor da sua 3° movimentação de débito: ")
+escreval ("quanto foi o valor da sua 3Â° movimentaÃ§Ã£o de dÃ©bito: ")
 leia (mov3)
 se saldo >= mov1 + mov2 + mov3 entao
 escreval ("saldo positivo")
