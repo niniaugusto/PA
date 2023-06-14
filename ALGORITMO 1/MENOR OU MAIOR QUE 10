@@ -8,9 +8,9 @@ inicio
 escreval ("digite um numero: ")
 leia (numero)
 se numero >= 10 entao
-escreval ("este numero È maior que 10")
+escreval ("este numero √© maior que 10")
 senao
-escreval ("este numero n„o È maior que 10")
+escreval ("este numero n√£o √© maior que 10")
 fimse
 
 fimalgoritmo
