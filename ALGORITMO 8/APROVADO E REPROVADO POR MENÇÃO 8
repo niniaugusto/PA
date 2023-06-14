@@ -1,4 +1,4 @@
-Algoritmo "Aprovado e reprovado por menção"
+Algoritmo "Aprovado e reprovado por menÃ§Ã£o"
 // Disciplina   : [PA]
 // Professor   : Edilma
 // Autor(a)    : Nicolas Augusto da Silva
@@ -9,7 +9,7 @@ mencao: caractere
 
 Inicio
 
-escreval("Digite a menção do aluno?")
+escreval("Digite a menÃ§Ã£o do aluno?")
 leia(mencao)
 
 se (mencao = "i") ou (mencao = "I") ou (mencao = "r") ou (mencao ="R") entao
