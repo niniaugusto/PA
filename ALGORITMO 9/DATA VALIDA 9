@@ -11,18 +11,18 @@ Inicio
 escreval("Digite o dia.")
 leia(dia)
 
-escreval("Digite o mês.")
+escreval("Digite o mÃªs.")
 leia(mes)
 
 escreval("Digite o ano.")
 leia(ano)
 
 se (dia = 0) ou (dia > 31) ou (mes < 1) ou (mes > 12) ou (ano > 2022) entao
-escreval("data inválida.")
+escreval("data invÃ¡lida.")
 
 senao
 
-escreval("datá valida.")
+escreval("datÃ¡ valida.")
 fimse
 
 
