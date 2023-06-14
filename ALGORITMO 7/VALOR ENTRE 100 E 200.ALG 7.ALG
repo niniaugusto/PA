@@ -1,0 +1,20 @@
+Algoritmo "Valor entre 100 e 200"
+// Disciplina   : [PA]
+// Professor   : Edilma
+// Autor(a)    : Nicolas Augusto da Silva
+
+Var
+numero: real
+
+
+Inicio
+escreval ("digite um numero: ")
+leia (numero)
+se (numero >= 100) e (numero <= 200) entao
+escreval ("este numero esta no intervalo entre 100 e 200")
+senao
+escreval ("este numero não esta no intervalo entre 100 e 200")
+fimse
+
+
+Fimalgoritmo

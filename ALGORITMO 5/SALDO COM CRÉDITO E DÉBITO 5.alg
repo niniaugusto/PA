@@ -1,0 +1,23 @@
+algoritmo "SALDO COM CRÉDITO E DÉBITO"
+// Autor : Nicolas Augusto da Silva
+// Data : 14/06/2023
+
+var
+saldo, mov1, mov2, mov3: real
+
+inicio
+escreval ("qual o valor do seu saldo: ")
+leia (saldo)
+escreval ("qunto foi o valor de sua 1° movimetação de débito: ")
+leia (mov1)
+escreval ("quanto foi o valor da sua 2° movimentação de débito: ")
+leia (mov2)
+escreval ("quanto foi o valor da sua 3° movimentação de débito: ")
+leia (mov3)
+se saldo >= mov1 + mov2 + mov3 entao
+escreval ("saldo positivo")
+senao
+escreval ("saldo negativo")
+fimse
+
+fimalgoritmo
